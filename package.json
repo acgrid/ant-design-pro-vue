@@ -8,8 +8,7 @@
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "build:preview": "vue-cli-service build --mode preview",
-    "lint:nofix": "vue-cli-service lint --no-fix",
-    "postinstall": "opencollective-postinstall"
+    "lint:nofix": "vue-cli-service lint --no-fix"
   },
   "dependencies": {
     "@antv/data-set": "^0.10.2",
@@ -17,9 +16,7 @@
     "axios": "^0.19.0",
     "core-js": "^3.1.2",
     "enquire.js": "^2.1.6",
-    "lodash.get": "^4.4.2",
-    "lodash.pick": "^4.4.0",
-    "md5": "^2.2.1",
+    "lodash": "^4.17.15",
     "mockjs2": "1.0.8",
     "moment": "^2.24.0",
     "nprogress": "^0.2.0",
